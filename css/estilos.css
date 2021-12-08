@@ -1,0 +1,84 @@
+body{
+   
+    background-image: url(../img/foto.jpg);
+   
+    background-position: 50% 50%;
+    background-size: cover;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+   
+}
+.form-group{
+    margin: 10px auto;
+    
+}
+
+
+
+.caja{
+     font-family:Lucida Calligraphy;
+    border-radius: 3px; 
+    color: rgb(14, 1, 1);
+    margin: 25px auto;
+    border: 10px solid rgb(27, 24, 24);
+    text-align: center;
+    width:400px;
+    background: rgb(39, 38, 38);
+  
+} 
+
+.btn{ 
+    width: 100px;
+    height: 40px;
+    font-family:Lucida Calligraphy;
+    margin-bottom: 15px;
+    color: #fff;
+ }
+ 
+
+ 
+
+.caja1{
+    border-radius: 5px;
+    border: 5px solid rgb(14, 13, 13);
+    margin-top: 30px;
+    margin: 20px 40px ;
+    text-align: center;
+    color: #fff;
+    font-family:Lucida Calligraphy;
+    width:  auto;
+    background:rgb(0, 0, 0);
+    
+} 
+
+.color{
+  background: rgba(97, 97, 97, 0.472);
+}
+
+.caja2{
+    border-radius: 15px;
+    border: 3px solid #fff;
+    margin: 20px auto;
+
+    text-align: center;
+  
+    width: 350px;
+    background: rgb(54, 54, 54);
+} 
+
+
+
+h1{
+    color: #fff;
+}
+
+@media(max-width:650px){
+    .btn{
+        width: 150px;
+    }
+    h1{
+        font-size: 30px;
+    }
+}
